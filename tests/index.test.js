@@ -1,5 +1,5 @@
-const initialCaps = require('./src/initialCaps');
-const snakeCaseToCamelCase = require('./src');
+const initialCaps = require('../src/initialCaps');
+const snakeCaseToCamelCase = require('../src');
 
 /**
  * initialCaps

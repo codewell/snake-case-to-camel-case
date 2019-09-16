@@ -1,19 +1,19 @@
 # snake_case -> camelCase
-Transform `"some_string"` into `"someString"``
+Transform `"some_string"` into `"someString"`
 
 ## Installation
 ```javascript
-npm install @fippli/snake-case-to-camel-case
+npm install @codewell/snake-case-to-camel-case
 ```
 
 ## Basic usage
-```javascript
-import snakeCaseToCamelCase from '@fippli/snake-case-to-camel-case';
+```JavaScript
+import snakeCaseToCamelCase from '@codewell/snake-case-to-camel-case';
 
-const MY_STRING = 'MY_STRING';
+const some_string = 'some_string';
 
-const myString = snakeCaseToCamelCase(MY_STRING);
+const someString = snakeCaseToCamelCase(some_string);
 
-console.log(myString); // => "myString"
+console.log(someString); // => "someString"
 ```
 
